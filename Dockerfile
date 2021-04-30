@@ -11,4 +11,4 @@ RUN npm install
 RUN npm run client:install
 
 
-CMD npm run spacebook
+CMD npm run server
