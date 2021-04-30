@@ -1,0 +1,42 @@
+{
+  "name": "spacebook_shop",
+  "version": "1.0.0",
+  "description": "MERN SpaceBook Shop",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js",
+    "client": "npm start --prefix frontend",
+    "spacebook": "concurrently \"npm run server\" \"npm run client\"",
+    "data:import": "node backend/seeder",
+    "data:destroy": "node backend/seeder -d",
+    "test": "mocha --recursive --exit --timeout 100000",
+    "test:frontend": "npm test a --prefix frontend ",
+    "test:project": "concurrently \"npm run test\" \"npm run test:frontend\"",
+    "client:install": "npm install --prefix frontend",
+    "build:project": "npm run build --prefix frontend"
+  },
+  "author": "Shrey Dubey",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "chai": "^4.3.4",
+    "colors": "^1.4.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-async-handler": "^1.1.4",
+    "jsonwebtoken": "^8.5.1",
+    "mocha": "^8.3.2",
+    "mockgoose": "^8.0.4",
+    "mongoose": "^5.12.3",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2",
+    "pino": "^6.11.3",
+    "supertest": "^6.1.3"
+  },
+  "devDependencies": {
+    "concurrently": "^6.0.0",
+    "nodemon": "^2.0.7"
+  }
+}

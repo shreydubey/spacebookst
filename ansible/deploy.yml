@@ -1,0 +1,8 @@
+---
+- name: Pull docker image projectspacebook
+  hosts: localhost
+  tasks:
+    - name: Pull docker image projectspacebook
+      docker_image:
+        name: shrey15/projectspacebook
+        source: pull

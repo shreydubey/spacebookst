@@ -1,0 +1,5 @@
+export let NODE_ENV = '********'
+export let PORT = '****'
+export let MONGO_URI = '*******'
+export let JWT_SECRET = '*******'
+export let PAYPAL_CLIENT_ID = '********'

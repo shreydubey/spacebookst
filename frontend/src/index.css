@@ -1,0 +1,55 @@
+main {
+  min-height: 70vh;
+}
+
+.rating span {
+  margin: 0.1rem;
+}
+
+/* carousel */
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active {
+  display: flex;
+}
+.carousel-caption {
+  position: absolute;
+  top: 0;
+}
+
+.carousel-caption h2 {
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+}
+
+.carousel img {
+  /*height: 300px;
+  padding-left: 37%;
+  padding-top: 1rem;
+  margin: 60px;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;*/
+
+  height: 300px;
+  padding: 30px;
+  padding-left: 40%;
+  padding-right: 40%;
+  object-fit: cover;
+  margin: 40px;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+.carousel a {
+  margin: 0 auto;
+}
+@media (max-width: 900px) {
+  .carousel-caption h2 {
+    font-size: 2.5vw;
+    font-family: "Montserrat", sans-serif;
+  }
+  .carousel img {
+    height: 200px;
+  }
+}
