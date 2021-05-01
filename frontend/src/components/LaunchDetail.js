@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { useEffect } from 'react'
+//import { useEffect } from 'react'
 //import Modal from './Modal'
 //style and animation
 import Popup from "reactjs-popup";
@@ -11,7 +11,7 @@ import {motion} from 'framer-motion';
 import {useSelector} from 'react-redux';
 //import { launch_detail_url } from '../api';
 import {useHistory} from "react-router-dom";
-import {useParams} from 'react-router';
+//import {useParams} from 'react-router';
 //image
 //import isro from '../img/isro_logo.jpg';
 //import spacex from '../img/spacex_logo.jpg';
