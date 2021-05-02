@@ -108,8 +108,9 @@ const LauchList = styled(motion.div)`
     padding: 0rem 3rem;
     h2{
         padding: 5rem 0rem;
-        font-weight: lighter;
-        font-family: 'Abril Fatface', cursive;
+        font-weight: bold;
+        font-size: 2rem;
+        font-family: Montserrat, sans-serif;
     }
 
 `

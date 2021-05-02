@@ -26,7 +26,7 @@ const GlobalStyles = createGlobalStyle`
         width: 100%;
     }
     h2{
-        font-family: 'Abril Fatface', cursive;
+        font-family: Montserrat, sans-serif;
         font-weight: lighter;
         font-size: 1.5rem;
     }
