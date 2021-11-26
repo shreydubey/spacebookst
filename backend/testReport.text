@@ -1,0 +1,300 @@
+
+> spacebook_shop@1.0.0 test /Users/sherydubey/spe_major_project
+> mocha 'backend/test/*.js' --recursive
+
+
+
+  validateLoginInput
+    ✔ It should not return error
+
+  validateLoginInput
+    ✔ It should not return error
+
+  validateLoginInput
+    ✔ It should not return error
+
+  validateLoginInput
+    ✔ It should not return error
+
+  validateLoginInput
+    ✔ It should not return error
+
+  validateLoginInput
+    1) It should not return error
+
+  validateLoginInput
+    2) It should not return error
+
+  validateLoginInput
+    3) It should not return error
+
+  validateLoginInput
+    4) It should not return error
+
+  validateLoginInput
+    5) It should not return error
+
+  validateLoginInput
+    6) It should not return error
+
+  validateLoginInput
+    7) It should not return error
+
+  validateLoginInput
+    ✔ It should not return error
+
+  validateLoginInput
+    ✔ It should not return error
+
+  validateLoginInput
+    ✔ It should not return error
+
+  validateLoginInput
+    ✔ It should not return error
+
+  validateLoginInput
+    ✔ It should not return error
+
+  validateLoginInput
+    8) It should not return error
+
+  validateLoginInput
+    9) It should not return error
+
+  validateLoginInput
+    10) It should not return error
+
+  validateLoginInput
+    11) It should not return error
+
+  validateLoginInput
+    12) It should not return error
+
+  validateLoginInput
+    13) It should not return error
+
+  validateLoginInput
+    14) It should not return error
+
+  validateLoginInput
+    15) It should not return error
+
+  validateLoginInput
+    16) It should not return error
+
+  validateLoginInput
+    17) It should not return error
+
+  validateLoginInput
+    18) It should not return error
+
+  validateLoginInput
+    19) It should not return error
+
+  validateLoginInput
+    20) It should not return error
+
+  validateLoginInput
+    ✔ It should not return error
+
+  validateLoginInput
+    ✔ It should not return error
+
+  validateLoginInput
+    ✔ It should not return error
+
+  validateLoginInput
+    ✔ It should not return error
+
+  validateLoginInput
+    ✔ It should not return error
+
+  validateLoginInput
+    21) It should not return error
+
+  validateLoginInput
+    22) It should not return error
+
+  validateLoginInput
+    23) It should not return error
+
+  validateLoginInput
+    24) It should not return error
+
+  validateLoginInput
+    25) It should not return error
+
+  validateLoginInput
+    26) It should not return error
+
+  validateLoginInput
+    27) It should not return error
+
+
+  15 passing (43ms)
+  27 failing
+
+  1) validateLoginInput
+       It should not return error:
+     AssertionError: expected { Object (password) } to be empty
+      at Context.<anonymous> (file:///Users/sherydubey/spe_major_project/backend/test/appTest.js:22:24)
+      at processImmediate (internal/timers.js:461:21)
+
+  2) validateLoginInput
+       It should not return error:
+     AssertionError: expected { email: 'Email is invalid' } to be empty
+      at Context.<anonymous> (file:///Users/sherydubey/spe_major_project/backend/test/appTest.js:22:24)
+      at processImmediate (internal/timers.js:461:21)
+
+  3) validateLoginInput
+       It should not return error:
+     AssertionError: expected { email: 'Email is invalid' } to be empty
+      at Context.<anonymous> (file:///Users/sherydubey/spe_major_project/backend/test/appTest.js:22:24)
+      at processImmediate (internal/timers.js:461:21)
+
+  4) validateLoginInput
+       It should not return error:
+     AssertionError: expected { email: 'Email is invalid' } to be empty
+      at Context.<anonymous> (file:///Users/sherydubey/spe_major_project/backend/test/appTest.js:22:24)
+      at processImmediate (internal/timers.js:461:21)
+
+  5) validateLoginInput
+       It should not return error:
+     AssertionError: expected { email: 'Email is invalid' } to be empty
+      at Context.<anonymous> (file:///Users/sherydubey/spe_major_project/backend/test/appTest.js:22:24)
+      at processImmediate (internal/timers.js:461:21)
+
+  6) validateLoginInput
+       It should not return error:
+     AssertionError: expected { email: 'Email is invalid' } to be empty
+      at Context.<anonymous> (file:///Users/sherydubey/spe_major_project/backend/test/appTest.js:22:24)
+      at processImmediate (internal/timers.js:461:21)
+
+  7) validateLoginInput
+       It should not return error:
+     AssertionError: expected { Object (email, password) } to be empty
+      at Context.<anonymous> (file:///Users/sherydubey/spe_major_project/backend/test/appTest.js:22:24)
+      at processImmediate (internal/timers.js:461:21)
+
+  8) validateLoginInput
+       It should not return error:
+     AssertionError: expected { Object (password) } to be empty
+      at Context.<anonymous> (file:///Users/sherydubey/spe_major_project/backend/test/appTest.js:22:24)
+      at processImmediate (internal/timers.js:461:21)
+
+  9) validateLoginInput
+       It should not return error:
+     AssertionError: expected { email: 'Email field is required' } to be empty
+      at Context.<anonymous> (file:///Users/sherydubey/spe_major_project/backend/test/appTest.js:22:24)
+      at processImmediate (internal/timers.js:461:21)
+
+  10) validateLoginInput
+       It should not return error:
+     AssertionError: expected { email: 'Email field is required' } to be empty
+      at Context.<anonymous> (file:///Users/sherydubey/spe_major_project/backend/test/appTest.js:22:24)
+      at processImmediate (internal/timers.js:461:21)
+
+  11) validateLoginInput
+       It should not return error:
+     AssertionError: expected { email: 'Email field is required' } to be empty
+      at Context.<anonymous> (file:///Users/sherydubey/spe_major_project/backend/test/appTest.js:22:24)
+      at processImmediate (internal/timers.js:461:21)
+
+  12) validateLoginInput
+       It should not return error:
+     AssertionError: expected { email: 'Email field is required' } to be empty
+      at Context.<anonymous> (file:///Users/sherydubey/spe_major_project/backend/test/appTest.js:22:24)
+      at processImmediate (internal/timers.js:461:21)
+
+  13) validateLoginInput
+       It should not return error:
+     AssertionError: expected { email: 'Email field is required' } to be empty
+      at Context.<anonymous> (file:///Users/sherydubey/spe_major_project/backend/test/appTest.js:22:24)
+      at processImmediate (internal/timers.js:461:21)
+
+  14) validateLoginInput
+       It should not return error:
+     AssertionError: expected { Object (email, password) } to be empty
+      at Context.<anonymous> (file:///Users/sherydubey/spe_major_project/backend/test/appTest.js:22:24)
+      at processImmediate (internal/timers.js:461:21)
+
+  15) validateLoginInput
+       It should not return error:
+     AssertionError: expected { email: 'Email is invalid' } to be empty
+      at Context.<anonymous> (file:///Users/sherydubey/spe_major_project/backend/test/appTest.js:22:24)
+      at processImmediate (internal/timers.js:461:21)
+
+  16) validateLoginInput
+       It should not return error:
+     AssertionError: expected { email: 'Email is invalid' } to be empty
+      at Context.<anonymous> (file:///Users/sherydubey/spe_major_project/backend/test/appTest.js:22:24)
+      at processImmediate (internal/timers.js:461:21)
+
+  17) validateLoginInput
+       It should not return error:
+     AssertionError: expected { email: 'Email is invalid' } to be empty
+      at Context.<anonymous> (file:///Users/sherydubey/spe_major_project/backend/test/appTest.js:22:24)
+      at processImmediate (internal/timers.js:461:21)
+
+  18) validateLoginInput
+       It should not return error:
+     AssertionError: expected { email: 'Email is invalid' } to be empty
+      at Context.<anonymous> (file:///Users/sherydubey/spe_major_project/backend/test/appTest.js:22:24)
+      at processImmediate (internal/timers.js:461:21)
+
+  19) validateLoginInput
+       It should not return error:
+     AssertionError: expected { email: 'Email is invalid' } to be empty
+      at Context.<anonymous> (file:///Users/sherydubey/spe_major_project/backend/test/appTest.js:22:24)
+      at processImmediate (internal/timers.js:461:21)
+
+  20) validateLoginInput
+       It should not return error:
+     AssertionError: expected { Object (email, password) } to be empty
+      at Context.<anonymous> (file:///Users/sherydubey/spe_major_project/backend/test/appTest.js:22:24)
+      at processImmediate (internal/timers.js:461:21)
+
+  21) validateLoginInput
+       It should not return error:
+     AssertionError: expected { Object (password) } to be empty
+      at Context.<anonymous> (file:///Users/sherydubey/spe_major_project/backend/test/appTest.js:22:24)
+      at processImmediate (internal/timers.js:461:21)
+
+  22) validateLoginInput
+       It should not return error:
+     AssertionError: expected { email: 'Email field is required' } to be empty
+      at Context.<anonymous> (file:///Users/sherydubey/spe_major_project/backend/test/appTest.js:22:24)
+      at processImmediate (internal/timers.js:461:21)
+
+  23) validateLoginInput
+       It should not return error:
+     AssertionError: expected { email: 'Email field is required' } to be empty
+      at Context.<anonymous> (file:///Users/sherydubey/spe_major_project/backend/test/appTest.js:22:24)
+      at processImmediate (internal/timers.js:461:21)
+
+  24) validateLoginInput
+       It should not return error:
+     AssertionError: expected { email: 'Email field is required' } to be empty
+      at Context.<anonymous> (file:///Users/sherydubey/spe_major_project/backend/test/appTest.js:22:24)
+      at processImmediate (internal/timers.js:461:21)
+
+  25) validateLoginInput
+       It should not return error:
+     AssertionError: expected { email: 'Email field is required' } to be empty
+      at Context.<anonymous> (file:///Users/sherydubey/spe_major_project/backend/test/appTest.js:22:24)
+      at processImmediate (internal/timers.js:461:21)
+
+  26) validateLoginInput
+       It should not return error:
+     AssertionError: expected { email: 'Email field is required' } to be empty
+      at Context.<anonymous> (file:///Users/sherydubey/spe_major_project/backend/test/appTest.js:22:24)
+      at processImmediate (internal/timers.js:461:21)
+
+  27) validateLoginInput
+       It should not return error:
+     AssertionError: expected { Object (email, password) } to be empty
+      at Context.<anonymous> (file:///Users/sherydubey/spe_major_project/backend/test/appTest.js:22:24)
+      at processImmediate (internal/timers.js:461:21)
+
+
+

@@ -1,6 +1,7 @@
 import asyncHandler from 'express-async-handler'
 import Order from '../models/orderModel.js'
 import pino from 'pino'
+import validateOrder from '../validation/orderValidation.js'
 
 const logger = pino({
   level: 'info',
@@ -21,7 +22,11 @@ const addOrderItems = asyncHandler(async (req, res) => {
     shippingPrice,
     totalPrice,
   } = req.body
-
+  
+  const { errors, isValid} =  validateOrder(req.body)
+  if(!isValid) {
+    return res.status(400).json(errors);
+  }
   if (orderItems && orderItems.length === 0) {
     res.status(400)
     throw new Error('No order items')

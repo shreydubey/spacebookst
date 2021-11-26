@@ -63,7 +63,7 @@ app.use(notFound)
 
 app.use(errorHandler)
 
-const PORTNO = process.env.PORT || 3000 || PORT;
+const PORTNO = process.env.PORT || 5001 || PORT;
 
 app.listen(PORTNO, () => {
   console.log(`Server Running In ${process.env.NODE_ENV || NODE_ENV} Mode On Port ${PORTNO}`.rainbow.bold)

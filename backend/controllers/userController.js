@@ -2,7 +2,8 @@ import asyncHandler from 'express-async-handler'
 import generateToken from '../utils/generateToken.js'
 import User from '../models/userModel.js'
 import pino from 'pino'
-
+import validateLoginInput from '../validation/uservalidation.js'
+import validateRegisterInput from '../validation/userRegisterValidation.js'
 const logger = pino({
   level: 'info',
   timestamp: () => `,"time":${new Date().toISOString()}`
@@ -14,7 +15,10 @@ const logger = pino({
 // @access  Public
 const authUser = asyncHandler(async (req, res) => {
   const { email, password } = req.body
-
+  const { errors, isValid} =  validateLoginInput(req.body)
+  if(!isValid) {
+    return res.status(400).json(errors);
+  }
   const user = await User.findOne({ email })
 
   if (user && (await user.matchPassword(password))) {
@@ -39,7 +43,10 @@ const authUser = asyncHandler(async (req, res) => {
 // @access  Public
 const registerUser = asyncHandler(async (req, res) => {
   const { name, email, password } = req.body
-
+  const { errors, isValid} =  validateRegisterInput(req.body)
+  if(!isValid) {
+    return res.status(400).json(errors);
+  }
   const userExists = await User.findOne({ email })
 
   if (userExists) {
